@@ -1,2 +1,2 @@
 请务必提前编译sophus库、ceres库、fmt库，目前的编译基于三个库已经安装在电脑里（sudo make install过）
-请将文件夹放在catkin的src里，使用catkin build或catkin_make进行编译，这是pkg
+请将文件夹放在catkin的src里，使用catkin build或catkin_make进行编译
