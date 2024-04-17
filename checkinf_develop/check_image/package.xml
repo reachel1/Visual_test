@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="3">
+
+    <!-- Package Information -->
+    <name>check_image</name>
+    <version>2.5.0</version>
+    <description>
+        image algorithms for navigation algorithms.
+    </description>
+    <url>https://.com/</url>
+
+    <!-- Code Authors -->
+    <author email="3120235184@bit.edu.cn">ChengRuiqi</author>
+    <maintainer email="3120235184@bit.edu.cn">ChengRuiqi</maintainer>
+
+    <!-- Licensing -->
+    <license>GNU General Public License v3.0</license>
+
+    <!-- ROS1: Dependencies needed to compile this package. -->
+    <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+    <depend condition="$ROS_VERSION == 1">cmake_modules</depend>
+    <depend condition="$ROS_VERSION == 1">roscpp</depend>
+    <depend condition="$ROS_VERSION == 1">rosbag</depend>
+    <depend condition="$ROS_VERSION == 1">sensor_msgs</depend>
+    <depend condition="$ROS_VERSION == 1">cv_bridge</depend>
+
+    <!-- Note the export is required to expose the executables -->
+    <export>
+        <build_type condition="$ROS_VERSION == 1">catkin</build_type>
+    </export>
+
+
+</package>
